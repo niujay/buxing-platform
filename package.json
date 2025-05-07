@@ -1,0 +1,20 @@
+{
+  "name": "buxing-platform",
+  "version": "1.0.0",
+  "description": "Buxing platform project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "author": "Jay Niu",
+  "license": "ISC"
+}
